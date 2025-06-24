@@ -14,10 +14,16 @@ const ImageUpload = () => {
   const productOptions = {
     floorTiles: [
       {
-        id: 'marble-floor',
-        name: 'Premium Marble Floor',
-        image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=200',
+        id: 'tiles-1',
+        name: 'Premium Floor Tiles - Design 1',
+        image: '/tiles.PNG',
         price: '₹1,200/sq.m'
+      },
+      {
+        id: 'tiles-2',
+        name: 'Premium Floor Tiles - Design 2',
+        image: '/tiles 2.PNG',
+        price: '₹1,400/sq.m'
       },
       {
         id: 'wooden-floor',
@@ -206,7 +212,7 @@ const ImageUpload = () => {
                 {/* Floor Tiles */}
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800 mb-4">Floor Tiles</h4>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {productOptions.floorTiles.map((product) => (
                       <div
                         key={product.id}
