@@ -1,55 +1,13 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tiles & Sanitary AR Shop</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; margin: 20px; }
-        model-viewer {
-            width: 100%;
-            max-width: 600px; /* Adjust as needed */
-            height: 400px;   /* Adjust as needed */
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
-            margin: 20px auto;
-        }
-        h1 { color: #333; }
-        p { color: #555; }
-    </style>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
-</head>
-<body>
-    <h1>പുതിയ ടൈൽസ് AR ഉപയോഗിച്ച് നിങ്ങളുടെ വീട്ടിൽ കാണുക!</h1>
-    <p>നിങ്ങൾക്ക് ഇഷ്ടപ്പെട്ട ടൈൽ തിരഞ്ഞെടുത്ത് നിങ്ങളുടെ മുറിയിൽ എങ്ങനെയിരിക്കുമെന്ന് തത്സമയം കാണുക.</p>
-
-    <h2>നീല ഫ്ലോർ ടൈൽ</h2>
-    <model-viewer
-        alt="A beautiful blue floor tile"
-        src="Public/models/pipe.glb"  ar
-        ar-modes="webxr quick-look scene-viewer"
-        shadow-intensity="1"
-        camera-controls
-        touch-action="pan-y"
-        alt="Model of a blue floor tile, viewable in AR"
-    ></model-viewer>
-    <p>വില: ₹1200 / സ്ക്വയർ മീറ്റർ</p>
-    <hr>
-
-    <h2>മോഡേൺ വാഷ് ബേസിൻ</h2>
-    <model-viewer
-        alt="A modern wash basin"
-        src="https://uploads.onecompiler.io/43jh6wj3g/43ngu4hpu/eror.PNG" ar
-        ar-modes="webxr quick-look scene-viewer"
-        shadow-intensity="1"
-        camera-controls
-        touch-action="pan-y"
-        alt="Model of a modern wash basin, viewable in AR"
-    ></model-viewer>
-    <p>വില: ₹8500</p>
-    <hr>
-
-    <p>കൂടുതൽ വിവരങ്ങൾക്കും ഓർഡറുകൾക്കുമായി ഞങ്ങളെ ബന്ധപ്പെടുക.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Interior Design - Tiles & Sanitary Shop</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
